@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F1F5FE;
+    padding: 20px 120px;
+}
+
+a{
+    text-decoration: none;
+    padding-right: 60px;
+    color: #000;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.hire{
+     font-family: 'Manrope';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     /* line-height: 150%; */
+     border-radius: 6px;
+    letter-spacing: 0.5px;
+    color: #155EEF;
+    border: 1px solid #155EEF;
+    background: white;
+    padding: 10px 14px;
+}
+
+/* HERO */
+
+#hero-section{
+    padding: 40px 0;
+    background-color: #000000;
+}
+
+.main-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 120px;
+}
+
+.boy{
+    width: 50vw;
+}
+
+.info h3{
+    font-family: 'Manrope';
+    font-style: normal;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 150%;
+   letter-spacing: 0.5px;
+color: #A3A3A3;
+}
+
+.name{
+    font-family: 'Halant';
+font-style: normal;
+font-weight: 500;
+font-size: 56px;
+line-height: 120%;
+color: #FFFFFF;;
+}
+
+.projects{
+    margin-top: 24px;
+}
+
+.project{
+    padding: 10px 16px;
+gap: 10px;
+width: 164px;
+height: 44px;
+background: #155EEF;
+border-radius: 8px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+}
+
+/* About */
+
+#about{
+    padding: 50px 120px;
+}
+
+.about-me{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info1{
+    width: 45%;
+}
+
+.info1 h1{
+    font-family: 'Halant';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 50px;
+
+color: #000000;
+}
+
+.info1 h3{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+text-align: justify;
+letter-spacing: 0.5px;
+color: #000000;
+}
+
+
+.btns{
+    margin-top: 30px;
+}
+
+.btns a{
+    margin-right: 12px;
+}
+.resume{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+background: #FFFFFF;
+border: 1px solid #155EEF;
+padding: 10px 16px;
+letter-spacing: 0.5px;
+border-radius: 8px;
+color: #155EEF;
+}
+
+.hire2{
+    padding: 10px 30px;
+    background: #155EEF;
+    border-radius: 8px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+/* footer */
+
+#footer{
+    background-color: #000000;
+    padding: 30px 0;
+}
+
+.main-footer{
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+
+}
+
+.socials img{
+    padding: 0 14px;
+}
+
+.copy{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 150%;
+/* identical to box height, or 36px */
+
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+}

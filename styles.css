@@ -33,12 +33,16 @@ a{
     line-height: 24px;
 }
 
+.active{
+    border-bottom: 1px solid #155EEF;
+}
+
+
 .hire{
      font-family: 'Manrope';
      font-style: normal;
      font-weight: 700;
      font-size: 16px;
-     /* line-height: 150%; */
      border-radius: 6px;
     letter-spacing: 0.5px;
     color: #155EEF;
@@ -50,7 +54,7 @@ a{
 /* HERO */
 
 #hero-section{
-    padding: 40px 0;
+    padding: 50px 0 0 0;
     background-color: #000000;
 }
 
@@ -58,30 +62,26 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 120px;
+    padding: 0 120px;
 }
 
-.boy{
-    width: 50vw;
-}
-
-.info h3{
+.info p{
     font-family: 'Manrope';
     font-style: normal;
-   font-weight: 500;
-   font-size: 32px;
-   line-height: 150%;
-   letter-spacing: 0.5px;
-color: #A3A3A3;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #A3A3A3;
 }
 
 .name{
     font-family: 'Halant';
-font-style: normal;
-font-weight: 500;
-font-size: 56px;
-line-height: 120%;
-color: #FFFFFF;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 120%;
+    color: #FFFFFF;;
 }
 
 .projects{
@@ -90,17 +90,17 @@ color: #FFFFFF;;
 
 .project{
     padding: 10px 16px;
-gap: 10px;
-width: 164px;
-height: 44px;
-background: #155EEF;
-border-radius: 8px;
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 150%;
-color: #FFFFFF;
+    gap: 10px;
+    width: 164px;
+    height: 44px;
+    background: #155EEF;
+    border-radius: 8px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
 }
 
 /* About */
@@ -116,28 +116,29 @@ color: #FFFFFF;
 }
 
 .info1{
-    width: 45%;
+    width: 48%;
+}
+
+.info1 p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #000000;
+    text-align: justify;
 }
 
 .info1 h1{
     font-family: 'Halant';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 50px;
-
-color: #000000;
-}
-
-.info1 h3{
-    font-family: 'Manrope';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 150%;
-text-align: justify;
-letter-spacing: 0.5px;
-color: #000000;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #000000;
 }
 
 
@@ -150,20 +151,20 @@ color: #000000;
 }
 .resume{
     font-family: 'Manrope';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 150%;
-background: #FFFFFF;
-border: 1px solid #155EEF;
-padding: 10px 16px;
-letter-spacing: 0.5px;
-border-radius: 8px;
-color: #155EEF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    background: #FFFFFF;
+    border: 1px solid #155EEF;
+    padding: 10px 16px;
+    letter-spacing: 0.5px;
+    border-radius: 8px;
+    color: #155EEF;
 }
 
 .hire2{
-    padding: 10px 30px;
+    padding: 10px 50px;
     background: #155EEF;
     border-radius: 8px;
     font-family: 'Manrope';
@@ -178,7 +179,7 @@ color: #155EEF;
 
 #footer{
     background-color: #000000;
-    padding: 30px 0;
+    padding: 30px 48px;
 }
 
 .main-footer{
@@ -194,13 +195,10 @@ color: #155EEF;
 
 .copy{
     font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 150%;
-/* identical to box height, or 36px */
-
-letter-spacing: 0.5px;
-
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
 }

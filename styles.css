@@ -255,6 +255,10 @@ a{
         display: none;
     }
 
+    body{
+        overflow-x: hidden;
+    }
+
     .menu{
         display: block;
     }
@@ -279,7 +283,7 @@ a{
 
     .main-hero{
         flex-direction: column-reverse;
-        padding: 0 30px;
+        padding: 0 40px;
     }
 
 
@@ -347,12 +351,12 @@ a{
     }
 
     .resume{
-        padding: 10px 8px;
+        padding: 10px 4px;
         letter-spacing: 0.5px;
     }
 
     .hire2{
-        padding: 10px 40px;
+        padding: 10px 20px;
     }
 
     

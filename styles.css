@@ -76,7 +76,7 @@ a{
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 32px;
     line-height: 150%;
     letter-spacing: 0.5px;
     color: #A3A3A3;
@@ -130,7 +130,7 @@ a{
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 40px;
     color: #000000;
     text-align: justify;
@@ -187,8 +187,7 @@ a{
 
 #recommendations{
     background: #E6E6E6;
-    padding: 100px 120px;
-    width: 100%;
+    padding: 50px 120px;
 }
 
 .rec-wrapper{
@@ -222,7 +221,7 @@ a{
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 150%;
     text-align: justify;
     letter-spacing: 0.5px;

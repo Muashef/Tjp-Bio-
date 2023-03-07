@@ -187,7 +187,7 @@ a{
 
 #recommendations{
     background: #E6E6E6;
-    padding: 50px 120px;
+    padding: 30px 120px;
 }
 
 .rec-wrapper{
@@ -198,7 +198,7 @@ a{
 .recommendations{
     /* width: 50%; */
     background: #FFFFFF;
-    padding: 45px 35px 150px 35px;
+    padding: 45px 35px 140px 35px;
     position: relative;
     z-index: 2;
     margin-top: 15rem;
@@ -221,7 +221,7 @@ a{
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 150%;
     text-align: justify;
     letter-spacing: 0.5px;

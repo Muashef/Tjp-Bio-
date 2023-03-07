@@ -72,12 +72,11 @@ a{
     padding: 0 120px;
 }
 
-
 .info .desc{
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 40px;
     line-height: 150%;
     letter-spacing: 0.5px;
     color: #A3A3A3;
@@ -131,7 +130,7 @@ a{
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 40px;
     color: #000000;
     text-align: justify;
@@ -182,6 +181,75 @@ a{
     font-size: 16px;
     line-height: 150%;
     color: #FFFFFF;
+}
+
+/* Recommendations */
+
+#recommendations{
+    background: #E6E6E6;
+    padding: 100px 120px;
+    width: 100%;
+}
+
+.rec-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.recommendations{
+    /* width: 50%; */
+    background: #FFFFFF;
+    padding: 45px 35px 150px 35px;
+    position: relative;
+    z-index: 2;
+    margin-top: 15rem;
+    margin-left: -9rem;
+}
+
+.recommendations h1{
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #141414;
+    margin-bottom: 14px;
+}
+
+.recommendations .content{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #141414;
+    margin-bottom: 12px;
+}
+
+.recommendations .author{
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #525252;
+}
+
+.recommendations .desig{
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #525252;
 }
 
 /* footer */
@@ -259,9 +327,6 @@ a{
         display: none;
     }
 
-    body{
-        overflow-x: hidden;
-    }
 
     .menu{
         display: block;
@@ -353,7 +418,7 @@ a{
     }
 
     .resume{
-        padding: 10px 8px;
+        padding: 10px 10px;
         letter-spacing: 0.5px;
     }
 

@@ -15,7 +15,6 @@
 
 .container{
     width: 100%;
-    /* margin: 0 auto; */
 }
 
 nav{
@@ -191,21 +190,25 @@ a{
 
 #recommendations{
     background: #E6E6E6;
-    padding: 20px 120px;
+    padding: 100px 120px;
+    margin-bottom: 30px;
 }
 
 .rec-wrapper{
     display: flex;
     align-items: center;
+    position: relative;
 }
+
 
 .recommendations{
     background: #FFFFFF;
     padding: 45px 35px 120px 35px;
-    position: relative;
-    z-index: 2;
-    margin-top: 12rem;
-    margin-left: -9rem;
+    z-index: 10;
+    position: absolute;
+    left: 37%;
+   top: 30%;
+   height: 440px;
 }
 
 .recommendations h1{
@@ -258,14 +261,13 @@ a{
 
 #footer{
     background-color: #000000;
-    padding: 20px 48px;
+    padding: 20px 120px;
 }
 
 .main-footer{
     display: flex;
     align-items:center ;
-    justify-content: space-around;
-
+    justify-content: space-between;
 }
 
 .socials img{
@@ -321,6 +323,98 @@ a{
         flex-direction: column;
     }
 
+    /* RECOMMENDATIONS */
+
+    #recommendations{
+        margin-bottom: 0;
+        padding: 10px 8px;
+    }
+
+    .black-boy{
+        display: none;
+    }
+
+    .recommendations{
+        position: relative;
+        background: none;
+        padding: 10px 80px;
+        text-align: justify;
+        width: 100%;
+        height: auto;
+        left: 0;
+    }
+
+    .recommendations h1{
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .recommendations .content{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: justify;
+        letter-spacing: 0.5px;
+        color: #141414;
+    }
+
+    .recommendations .author{
+        font-family: 'Halant';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: justify;
+        letter-spacing: 0.5px;
+        color: #525252;
+    }
+
+    .recommendations .desig{
+        font-family: 'Halant';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: justify;
+        letter-spacing: 0.5px;
+        color: #525252;
+    }
+
+     /* FOOTER */
+
+     #footer{
+        padding: 20px 80px;
+    }
+
+    
+    .main-footer{
+        display: flex;
+        /* align-items:center ;
+        justify-content: space-between; */
+    }
+
+    .main-footer .footer-logo{
+        width: 90%;
+        /* margin-bottom: 12px; */
+    }
+
+    .socials img{
+        padding: 0 8px;
+        width: 30%;
+        /* display: flex; */
+    }
+
+    .copy{
+        font-size: 18px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    
+
+
     
 }
 
@@ -371,11 +465,9 @@ a{
 
     .projects{
         display: flex;
-        /* flex-direction: row; */
         justify-content: center;
         align-items: center;
         padding: 10px 16px;
-        /* gap: 10px; */
         width: 308px;
         height: 44px;
         background: #155EEF;
@@ -429,26 +521,87 @@ a{
     }
 
     
-    .main-footer{
-        /* display: grid;
-        grid-template-columns: repeat(2, 2fr);
-         */
-         flex-wrap: wrap;
+
+    /* RECOMMENDATION */
+
+    #recommendations{
+        margin-bottom: 0;
+        padding: 10px 8px;
     }
 
-    
-    #footer{
-        padding: 30px 40px;
+    .black-boy{
+        display: none;
     }
+
+    .recommendations{
+        position: relative;
+        background: none;
+        padding: 10px 30px;
+        text-align: justify;
+        width: 100%;
+        height: auto;
+        left: 0;
+    }
+
+    .recommendations h1{
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .recommendations .content{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: justify;
+        letter-spacing: 0.5px;
+        color: #141414;
+    }
+
+    .recommendations .author{
+        font-family: 'Halant';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: justify;
+        letter-spacing: 0.5px;
+        color: #525252;
+    }
+
+    .recommendations .desig{
+        font-family: 'Halant';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: justify;
+        letter-spacing: 0.5px;
+        color: #525252;
+    }
+    
+    /* FOOTER */
+
+    #footer{
+        padding: 20px 10px;
+    }
+
+    .main-footer{
+        flex-wrap: wrap;
+        justify-content: center;
+   }
 
     .main-footer .footer-logo{
-        width: 100%;
+        width: 90%;
         margin-bottom: 12px;
     }
 
     .socials img{
         padding: 0 8px;
         width: 30%;
+        /* display: flex; */
     }
 
     .copy{
